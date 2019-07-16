@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "5528635624",
+    "firebase_url": "https://faidaloany.firebaseio.com",
+    "project_id": "faidaloany",
+    "storage_bucket": "faidaloany.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5528635624:android:dcd7e39d64b528b3",
+        "android_client_info": {
+          "package_name": "com.soigo.faidaloans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5528635624-pud953knsvevcao0o1jcq1ktffrgr3df.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5qdcgwW2U6Zh0y4UZBrHNwn6bj0VY-CU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5528635624-pud953knsvevcao0o1jcq1ktffrgr3df.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

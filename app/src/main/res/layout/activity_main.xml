@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/lg"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Faida Loans"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_proceed"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/on_click_btn_change_color"
+        android:text="Proceed"
+        android:textColor="@android:color/black"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:textSize="20dp"
+        android:padding="20dp"/>
+    <TextView
+        android:id="@+id/tv_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Terms and Conditions."
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            android:layout_gravity="center"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+</LinearLayout>

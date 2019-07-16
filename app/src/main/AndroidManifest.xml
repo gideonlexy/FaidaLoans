@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.soigo.faidaloans">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lg"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/lg"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.soigo.faidaloans.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.soigo.faidaloans.CheckLoanLimitActivity" />
+        <activity android:name="com.soigo.faidaloans.HomeActivity" />
+        <activity android:name="com.soigo.faidaloans.LoanStatusActivity" />
+        <activity android:name="com.soigo.faidaloans.ProceedToLoanActivity" />
+        <activity android:name="com.soigo.faidaloans.RequestLoanActivity" />
+        <activity android:name="com.soigo.faidaloans.SignInActivity" />
+        <activity android:name="com.soigo.faidaloans.SignUpActivity" />
+        <activity android:name="com.soigo.faidaloans.TermsConditionsActivity" />
+        <activity android:name="com.soigo.faidaloans.ForgetActivity" />
+        <activity android:name="com.soigo.faidaloans.AfterApplyActivity" />
+    </application>
+
+</manifest>

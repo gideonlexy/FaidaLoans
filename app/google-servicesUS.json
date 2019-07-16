@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "345756948121",
+    "firebase_url": "https://faidaloans-dd335.firebaseio.com",
+    "project_id": "faidaloans-dd335",
+    "storage_bucket": "faidaloans-dd335.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345756948121:android:6bdc6630022e0cb4",
+        "android_client_info": {
+          "package_name": "com.example.faidaloans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345756948121-ptt4utak0mo47bau21crvj8nf9qomt21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.faidaloans",
+            "certificate_hash": "6dfd22770de79cd871f28f1ea8b5ed1655c6a40d"
+          }
+        },
+        {
+          "client_id": "345756948121-emcgnaee0eeihlcb1tat20rhob365seh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9aU2pJ2zsUu9V0GEqgwjDzaAErvpaoAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345756948121-emcgnaee0eeihlcb1tat20rhob365seh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

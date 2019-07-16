@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Faida Loans</string>
+    <string name="t1">The principal amount of this Loan together with accrued and unpaid interest and all other charges, costs and expenses, is due and payable on or before 2 months after loan application. All payments under this Agreement are applied first to accrued interest and then to the balance of the outstanding principal.</string>
+    <string name="t2">The Borrower has the right to prepay all or any part of the principal amount of this Loan, together with accrued and unpaid interest thereon, at any time without prepayment penalty or premium of any kind.</string>
+    <string name="t3">In the event of default, the Borrower shall pay to the Lender all costs of collection including reasonable attorney\'s fees.</string>
+    <string name="t4">The Borrower and all sureties, guarantors and endorsers hereof, waive presentment, protest and demand, notice of protest, demand and dishonor and nonpayment of this Loan.</string>
+    <string name="t5">This Loan will inure to the benefit of and be binding on the respective successors and permitted assigns of the Borrower. The Borrower may not assign its rights or delegate its duties under this Loan without the Lender\'s prior written consent.</string>
+    <string name="t6">If there is more than one Borrower of this Loan, the obligation of each Borrower shall be joint and several under this Loan. </string>
+    <string name="t7">This Loan may be amended or modified only by a written agreement signed by the Borrower and Lender. </string>
+    <string name="t8">In the event that any of the provisions of this Loan are held to be invalid or unenforceable in whole or in part, the remaining provisions shall not be affected and shall continue to be valid and enforceable as though the invalid or unenforceable parts had not been included in this Loan. </string>
+    <string name="t9">Any notice or communication under this Loan must be in writing and sent via one of the following options:</string>
+    <string name="t10">This Loan shall be governed by and construed in accordance with the laws of Kenya.</string>
+
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+
+</resources>
